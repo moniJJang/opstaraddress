@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="오피스타의 실시간 현재 주소 및 공식 텔레그램을 안내합니다. 오피스타는 최다 업소 제휴로 오피정보 및 유흥정보를 빠르고 다양하게 제공합니다.
+      전국의 다양한 오피 업체를 실시간으로 업데이트하여 회원들에게 효율적으로 안내합니다. 사이트에서 제공하는 정보들은 완전히 온라인으로 처리되며,
+      회원들이 쉽게 접근할 수 있도록 설계되었습니다."
+    />
+    <meta
+      name="keywords"
+      content="오피스타, 오피, 오피스타 주소, 오피가이드, 오피스타 텔레그램, 오피스타 최신주소, opstar"
+    />
+
+    <meta name="author" content="opstar" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="오피스타 주소 센터" />
+    <meta
+      property="og:description"
+      content="오피스타의 실시간 현재 주소 및 공식 텔레그램을 안내합니다. 오피스타는 최다 업소 제휴로 오피정보 및 유흥정보를 빠르고 다양하게 제공합니다.
+      전국의 다양한 오피 업체를 실시간으로 업데이트하여 회원들에게 효율적으로 안내합니다. 사이트에서 제공하는 정보들은 완전히 온라인으로 처리되며,
+      회원들이 쉽게 접근할 수 있도록 설계되었습니다."
+    />
+    <meta property="og:image" content="https://opstar.support/logo.webp" />
+    <meta property="og:url" content="https://opstar.support" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="오피스타 주소 센터" />
+    <meta
+      name="twitter:description"
+      content="오피스타의 실시간 현재 주소 및 공식 텔레그램을 안내합니다. 오피스타는 최다 업소 제휴로 오피정보 및 유흥정보를 빠르고 다양하게 제공합니다.
+      전국의 다양한 오피 업체를 실시간으로 업데이트하여 회원들에게 효율적으로 안내합니다. 사이트에서 제공하는 정보들은 완전히 온라인으로 처리되며,
+      회원들이 쉽게 접근할 수 있도록 설계되었습니다."
+    />
+    <meta name="twitter:image" content="https://opstar.support/logo.webp" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://opstar.support" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>오피스타 주소 센터</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        font-family: "Segoe UI", sans-serif;
+        text-align: center;
+        color: #333;
+        background-image: url("background.webp");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      .page-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 95vh;
+        padding: 40px 20px;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        margin-bottom: 40px;
+        font-size: 3em;
+        color: rgb(21, 20, 20);
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+      }
+
+      .card-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .info-card {
+        width: 260px;
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        transition: transform 0.2s, box-shadow 0.2s, border 0.2s;
+        border: 2px solid transparent;
+      }
+
+      .info-card .label {
+        padding: 15px;
+        font-weight: bold;
+        font-size: 1rem;
+        color: #fff;
+      }
+
+      .info-card .value {
+        padding: 20px;
+        font-size: 1.2rem;
+        word-break: break-word;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      .site-card .label {
+        background-color: #e71212;
+      }
+
+      .telegram-card .label {
+        background-color: #0088cc;
+      }
+
+      .site-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+        border: 2px solid #e71212;
+      }
+
+      .telegram-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+        border: 2px solid #0088cc;
+      }
+
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .footer-logo-container {
+        margin-top: 80px;
+        text-align: center;
+      }
+
+      .footer-logo {
+        width: 300px;
+        height: auto;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+
+      .footer-logo:hover {
+        opacity: 1.5;
+        transform: scale(1.3);
+        cursor: pointer;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 1.3rem;
+        color: #000000e1;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2em;
+        }
+        .card-grid {
+          flex-direction: column;
+          align-items: center;
+        }
+        .footer-logo {
+          width: 30vw;
+        }
+      }
+
+      @media (max-width: 350px) {
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+
+      @media (max-width: 300px) {
+        h1 {
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div>
+        <h1 aria-label="오피스타 메인">📢 오피스타 주소 센터</h1>
+        <div class="card-grid" aria-label="오피스타 컨테이너">
+          <a
+            href="/service"
+            class="info-card site-card"
+            aria-label="오피스타 공식 사이트 주소 컨테이너"
+          >
+            <div class="label" aria-label="오피스타 공식 사이트 주소">
+              공식 사이트 주소
+            </div>
+            <div class="value" aria-label="오피스타 공식 사이트 주소 안내">
+              opkaka.com
+            </div>
+          </a>
+
+          <a
+            href="/telegram"
+            class="info-card telegram-card"
+            aria-label="오피스타 텔레그램 컨테이너"
+          >
+            <div class="label" aria-label="오피스타 텔레그램 주소">
+              공식 텔레그램 주소
+            </div>
+            <div class="value" aria-label="오피스타 텔레그램 주소안내">
+              @opstar_real
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="visually-hidden">
+        오피스타는 최신 공식 사이트 주소와 텔레그램 채널 정보를 제공합니다. 이
+        사이트는 링크가 변경될 경우 즉시 리다이렉션되어 항상 정확한 주소로
+        연결됩니다. 오피스타를 통해 안전하고 빠르게 공식 정보를 확인하세요.
+        <br />
+        오피스타는 최다 업소 제휴로 오피정보 및 유흥정보를 빠르고 다양하게
+        제공합니다. 전국의 다양한 오피 업체를 실시간으로 업데이트하여 회원들에게
+        효율적으로 안내합니다. 사이트에서 제공하는 정보들은 완전히 온라인으로
+        처리되며, 회원들이 쉽게 접근할 수 있도록 설계되었습니다.
+        <br />
+        오피스타는 전국의 오피 업체뿐만 아니라, 다양한 힐링 서비스 정보를
+        제공합니다. 사용자는 자신에게 맞는 업체를 손쉽게 찾아볼 수 있는 장점이
+        있으며, 오피스타 홈페이지의 직관적인 UI/UX를 통해 원하는 정보를 빠르게
+        탐색할 수 있습니다.
+        <br />오피스타는 타 사이트와 달리 단순히 지역별 분류를 넘어서, 업체 순위
+        정보를 추가적으로 제공합니다. 이를 통해 고객들은 주변 업체를 시각적으로
+        평가하고, 더 나은 선택을 할 수 있게 됩니다. OP사이트 순위에서도 항상
+        상위에 위치하며, 고객님들의 꾸준한 성원을 만족으로 보답하고자 노력하고
+        있습니다.
+        <br />
+        오피스타 위치 는 대한민국 서울특별시 서초구 양재동 동산로6길 33-1
+        유경빌딩 4층 403호에 위치합니다. 이곳에서 다양한 서비스와 혜택을
+        제공하고 고객만족, 사용자만족을 목표로 최선을 다하는 중 입니다.
+        <br />
+        오피스타 공식 사이트에서는 회원가입을 새로 유도하는 일이 어떤 경우에도
+        없으며, 기존 계정으로 이용가능하십니다. 만약 겉모습만 같은 사이트에서
+        회원가입을 새로하게끔 유도한다면 오피사이트를 대상으로 사칭을 시도하여
+        개인정보를 탈취하려는 사칭범들의 악질적인 수법이오니, 부디
+        개인정보보호에 피해가 없도록 유의바랍니다.
+        <br />
+        오피스타는 사용자들의 편리한 정보 검색을 위해 끊임없이 발전하고 있으며,
+        고객의 입장에서 생각하는 서비스를 제공합니다. 이를 통해 언제 어디서나
+        믿을 수 있는 오피를 제공하며, 고객의 만족도를 극대화하고자 최선을
+        다합니다. 사용자들이 더욱 편리하게 이용할 수 있도록, 지속적인 시스템
+        개선과 보안 강화를 통해 안전한 환경을 만들어가기 위해 노력합니다.
+      </div>
+      <div class="footer-logo-container" aria-label="오피스타 푸터 컨테이너">
+        <a href="/service" target="_blank" aria-label="오피스타 푸터">
+          <img src="logo.webp" alt="사이트 로고" class="footer-logo" />
+        </a>
+      </div>
+    </div>
+  </body>
+  <footer className="copyright" aria-label="오피스타 copyright">
+    © 2016 - 2025 오피스타 - All Rights Reserved.
+  </footer>
+</html>
